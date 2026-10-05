@@ -1,2 +1,39 @@
+[python list.py](https://github.com/user-attachments/files/33048359/python.list.py)
 # LISTS
 These are how lists are in python
+
+#Write a function that takes a list of numbers and returns how many are above 50
+Number =[]
+n = int(input("How  many Numbers ?"))
+
+for i in range (n) :
+    value = int(input("Enter Number"))
+    Number . append(value )
+
+if len( Numbers)> 0:
+    large_numbers =[num for num in Numbers if num > 50]
+    print ("Numbers  greater than 50:",large_numbers)
+else:
+    print("No  Number entered .")
+
+
+    
+    def count_above _50(numbers):
+        count =0
+
+        for num in numbers:
+            if num >50:
+
+        return count
+
+
+Numbers =[]
+n =int(input("How many Numbers?"))
+
+for  i in range (n):
+    value =int(input("Enter Number:"))
+    Numbers.append(value)
+
+    result =count_above_50(NumberS)
+
+    PRINT("How many numbers are greater than 50:",result)
